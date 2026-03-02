@@ -1,0 +1,118 @@
+/* Body & Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E3DBBB; /* page background restored */
+}
+
+/* Navbar */
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F8F3E1; /* container background restored */
+    padding: 30px 30px;         /* some padding inside container */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 20px;                  /* reduced space between sides */
+}
+
+/* Left Side (Contact Info) */
+.left-side {
+    flex: 1;
+}
+
+.left-side .details {
+    margin-bottom: 15px;        /* smaller space between details */
+}
+
+.left-side .topic {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Pipe Separator */
+.separator {
+    width: 2px;
+    background-color: #333;     /* dark vertical line */
+    align-self: stretch;        /* full height of container */
+}
+
+/* Right Side (Form) */
+.right-side {
+    flex: 1;
+}
+
+.right-side h2,
+.right-side p {
+    color: #C4A484;            /* light brown text */
+    text-align: center;
+}
+
+.right-side h2 {
+    margin-bottom: 10px;
+}
+
+/* Form Fields */
+.input-box {
+    margin-bottom: 12px;        /* reduced spacing between fields */
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.message-box textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Button */
+.button input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button input[type="submit"]:hover {
+    background-color: #C4A484; /* light brown hover */
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nav-links ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li:hover{
+    background: brown;
+}

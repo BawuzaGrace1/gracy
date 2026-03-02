@@ -1,0 +1,44 @@
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nav-links ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li:hover{
+    background: brown;
+}
+body{
+     min-height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+p{
+  color:brown;  
+}
+ul{
+    color: brown;
+}
+img{
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: translateY(-5px);
+}
